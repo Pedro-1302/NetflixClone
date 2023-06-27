@@ -8,10 +8,11 @@
 import UIKit
 
 class CategoriesCollectionViewCell: UICollectionViewCell {
-    
+
     @IBOutlet weak var categorieImage: UIImageView!
-    
-    public func setupCategories(with movie: Categories) {
-        categorieImage.image = movie.image
+            
+    public func setupCategories(with categorie: Categories) {
+        categorieImage.image = categorie.image
     }
+    
 }
